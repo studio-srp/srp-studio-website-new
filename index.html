@@ -78,11 +78,22 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="AboutUs.html" class="nav-item nav-link">About Us</a>
-                <a href="product.html" class="nav-item nav-link">Services</a>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            <div class="navbar-nav ms-auto p-4 p-lg-0 ">
+                <a href="index.html" class="nav-item nav-link active cover-services-list">Home</a>
+                <a href="AboutUs.html" class="nav-item nav-link cover-services-list">About Us</a>
+                <div class="nav-item dropdown cover-services-list">
+                    <a href="#" class="nav-link " data-bs-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="feature.html" class="dropdown-item ">Web Designing & Development</a>
+                        <a href="feature.html" class="dropdown-item ">Software Development</a>
+                        <a href="feature.html" class="dropdown-item ">Digital Marketing</a>
+                        <a href="feature.html" class="dropdown-item ">Creative Studio</a>
+
+                    </div>
+                </div>
+                <a href="#" class="nav-item nav-link cover-services-list">Our Portfolio</a>
+
+                <a href="contact.html" class="nav-item nav-link cover-services-list">Contact Us</a>
             </div>
         </div>
         <a href="contact.html#contactForm" class="ms-5 btn btn-primary p-2 d-none d-lg-block rounded">Inquire Now</a>
@@ -91,12 +102,13 @@
 <!-- Navbar End -->
 
 <!-- ======= Cover Section ======= -->
-<div id="home-cover" >
-    <div class="container  py-6 wow fadeIn  jumbotron d-flex align-items-center min-vh-100 "
-    data-wow-delay="0.1s">
-        <div>
-            <div class="row">
-                <div class=" col-md-10 col-sm-12  min-vh-3">
+<div id="home-cover">
+    <div class="container  pt-8 wow fadeIn jumbotron d-flex  min-vh-100 flex-column justify-content-between"
+         data-wow-delay="0.1s">
+        <div></div>
+        <div class="">
+            <div class="row pt-8">
+                <div class=" col-md-10 col-sm-12  min-vh-2">
 
                     <h1 class="main-header  ">For those who
                         <span class="typewrite" data-period="1000"
@@ -112,26 +124,32 @@
                     <ul class="list-group flex-column flex-sm-row main-header-sub-list">
                         <li class="list-group-item ps-0 cover-services-list ">Web Development</li>
                         <li class="list-group-item ps-0 cover-services-list">Digital Marketing</li>
-                        <li class="list-group-item ps-0 cover-services-list">Software Application Development</li>
+                        <li class="list-group-item ps-0 cover-services-list">Software Application Development
+                        </li>
                         <li class="list-group-item ps-0 cover-services-list">Creative Studio</li>
-
-                    </ul>
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-12 pt-8">
-                    <ul class="list-group flex-row main-header-sub-list">
-                        <li class="list-group-item ps-0 cover-social-links"><i class="bi bi-facebook"></i></li>
-                        <li class="list-group-item cover-social-links"><i class="bi bi-instagram"></i></li>
-                        <li class="list-group-item cover-social-links"><i class="bi bi-tiktok"></i></li>
-                        <li class="list-group-item cover-social-links"><i class="bi bi-linkedin"></i></li>
 
                     </ul>
                 </div>
             </div>
         </div>
 
+
+        <div class="row pb-4">
+            <div class="col-12 pt-8">
+                <ul class="list-group flex-row main-header-sub-list">
+                    <li class="list-group-item ps-0 cover-social-links"><i class="bi bi-facebook"></i></li>
+                    <li class="list-group-item cover-social-links"><i class="bi bi-instagram"></i></li>
+                    <li class="list-group-item cover-social-links"><i class="bi bi-tiktok"></i></li>
+                    <li class="list-group-item cover-social-links"><i class="bi bi-linkedin"></i></li>
+
+                </ul>
+            </div>
+        </div>
+
+
     </div>
+
+</div>
 
 </div>
 
@@ -299,7 +317,7 @@
                             ocean of websites, yours will stand unique.
                         </p>
                         <ul class="large-f">
-                            <li ><i class="bi bi-check2-all"></i>
+                            <li><i class="bi bi-check2-all"></i>
                                 Wireframeing
                             </li>
                             <li><i class="bi bi-check2-all"></i>
@@ -360,7 +378,7 @@
 
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center">
-<!--                        <img src="assets/img/features-3.jpg" alt="" class="img-fluid">-->
+                        <!--                        <img src="assets/img/features-3.jpg" alt="" class="img-fluid">-->
                     </div>
                 </div>
             </div><!-- End tab content item -->
@@ -383,7 +401,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center">
-<!--                        <img src="assets/img/features-4.jpg" alt="" class="img-fluid">-->
+                        <!--                        <img src="assets/img/features-4.jpg" alt="" class="img-fluid">-->
                     </div>
                 </div>
             </div><!-- End tab content item -->
@@ -399,7 +417,8 @@
         <div class="row">
             <div class="col-md-6 col-12 pe-md-5">
                 <h2 class="sub-header pb-5">We build more than just app</h2>
-                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                    dolores
                     iure perferendis
                     tempore et consequatur.Provident nihil minus qui consequatur non omnis maiores. Eos
                     accusantium minus dolores
@@ -410,13 +429,15 @@
                     tempore et consequatur.</p>
             </div>
             <div class="col-md-6">
-                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                    dolores
                     iure perferendis
                     tempore et consequatur.Provident nihil minus qui consequatur non omnis maiores. Eos
                     accusantium minus dolores
                     iure perferendis
                     tempore et consequatur.</p>
-                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                    dolores
                     iure perferendis
                     tempore et consequatur.Provident nihil minus qui consequatur non omnis maiores. Eos
                     accusantium minus dolores
@@ -445,12 +466,13 @@
 </section>
 
 <!--======content======-->
-<section id="content-marketing " class="features section-border py-5 d-flex justify-content-between align-items-start bg-light">
+<section id="content-marketing " class="features  py-5 d-flex justify-content-between align-items-start bg-light">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-md-6 col-12 pe-md-5">
                 <h2 class="sub-header pb-5">We drive your business forward</h2>
-                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                    dolores
                     iure perferendis
                     tempore et consequatur.Provident nihil minus qui consequatur non omnis maiores. Eos
                     accusantium minus dolores
@@ -461,13 +483,15 @@
                     tempore et consequatur.</p>
             </div>
             <div class="col-md-6">
-                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                    dolores
                     iure perferendis
                     tempore et consequatur.Provident nihil minus qui consequatur non omnis maiores. Eos
                     accusantium minus dolores
                     iure perferendis
                     tempore et consequatur.</p>
-                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                    dolores
                     iure perferendis
                     tempore et consequatur.Provident nihil minus qui consequatur non omnis maiores. Eos
                     accusantium minus dolores
@@ -503,14 +527,15 @@
 
 
 <!--======clients======-->
-<section id="clients" class="features section-border py-5 d-flex justify-content-between align-items-start ">
+<section id="clients" class="features  py-5 d-flex justify-content-between align-items-start ">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-12">
                 <h2 class="sub-header pb-5">Our Clients</h2>
             </div>
             <div class="col-md-8">
-                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                    dolores
                     iure perferendis
                     tempore et consequatur.Provident nihil minus qui consequatur non omnis maiores. Eos
                     accusantium minus dolores
@@ -565,7 +590,8 @@
             <div class="col-md-9 d-flex align-items-center">
                 <div>
                     <h4 class="pb-4">The Best Design Awards 2023</h4>
-                    <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                    <p class="large-f">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                        dolores
                         iure perferendis
                         tempore et consequatur.Provident nihil minus qui consequatur non omnis maiores. Eos
                         accusantium minus dolores
@@ -587,7 +613,8 @@
         <div class="row">
             <div class="col-11">
                 <h2 class="sub-header pb-5">Our Achievements</h2>
-                <h1 class="say-hi">Let's make something amazing together Start by <a href="#" class="highlight-fonts">saying hi</a>
+                <h1 class="say-hi">Let's make something amazing together Start by <a href="#" class="highlight-fonts">saying
+                    hi</a>
                 </h1>
             </div>
         </div>
