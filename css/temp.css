@@ -438,6 +438,18 @@ font-weight: 400 !important;
     position: relative;
 }
 
+/*--------------------------------------------------------------
+# contact form Section
+--------------------------------------------------------------*/
+.btn-submit{
 
+    background-color: var(--secondary);
+    color: black;
+    border-radius: 5px;
+}
+.btn-submit:hover{
+    background-color: var(--dark);
+    color: white;
 
+}
 
