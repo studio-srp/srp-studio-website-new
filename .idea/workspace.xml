@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798aae0e-d7ff-43c2-a1ed-938dfefa93c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Ellipsis-1s-200px.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Ellipsis-1s-30px.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aboutUs/aboutUs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aboutUs/office-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aboutUs/office-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/home/woman-touching-power-button-virtual-screen-smart-home-technology.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/creative-studio.html" beforeDir="false" afterPath="$PROJECT_DIR$/creative-studio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/temp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/temp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-marketing.html" beforeDir="false" afterPath="$PROJECT_DIR$/digital-marketing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software-development.html" beforeDir="false" afterPath="$PROJECT_DIR$/software-development.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-development.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-development.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Silk Road Studio/OneDrive/Desktop/SRP Studio/Studio-website",
+    "last_opened_file_path": "C:/Users/Silk Road Studio/OneDrive/Desktop/SRP Studio/Studio-website/img/home",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,10 +69,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP Studio\Studio-website\img\home" />
+      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP Studio\Studio-website\img" />
       <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP Studio\Studio-website" />
       <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP Studio\Studio-website\assets" />
       <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP Studio\Studio-website\css" />
-      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP Studio\Studio-website\.idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP Studio\Studio-website\img\aboutUs" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +90,9 @@
       <workItem from="1683011213425" duration="169000" />
       <workItem from="1683012350309" duration="6331000" />
       <workItem from="1683020769955" duration="11773000" />
-      <workItem from="1684655166487" duration="51981000" />
+      <workItem from="1684655166487" duration="52809000" />
+      <workItem from="1685357265707" duration="1508000" />
+      <workItem from="1685420439214" duration="14868000" />
     </task>
     <servers />
   </component>

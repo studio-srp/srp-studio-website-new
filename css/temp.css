@@ -1,5 +1,7 @@
 /* Colors */
-
+html{
+    scroll-behavior: smooth !important;
+}
 
 /* Smooth scroll behavior */
 :root {
@@ -19,13 +21,25 @@
     font-weight: 500;
     line-height: 48px;
 }
-
+.text-gray{
+    color: #6b6b6b !important;
+}
 .cover-services-list{
     /*line-height: 5px !important;*/
     position: relative;
     cursor: pointer;
 }
 
+.btn-hire-us{
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.btn-hire-us:hover{
+background: black !important;
+    color: var(--secondary);
+    /*border: var(--secondary) !important;*/
+}
 
 .cover-services-list::after{
     content: '';
@@ -46,11 +60,20 @@
 }
 
 #home-cover{
-    background:linear-gradient(79deg, rgba(255,255,255,1) 44%, rgba(255,255,255,0.891281512605042) 62%, rgba(0,162,195,0) 100%), url("../img/home/home-cover.jpg");
+    background:linear-gradient(79deg, rgba(255,255,255,1) 44%, rgb(255, 255, 255,0.7) 55%, rgba(255, 255, 255, 0.5) 100%), url("../img/home/woman-touching-power-button-virtual-screen-smart-home-technology.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
+}
+@media (max-width: 575px) {
+    #home-cover{
+        background:linear-gradient(79deg, rgba(255,255,255,1) 10%, rgb(255, 255, 255,0.7) 55%, rgba(255, 255, 255, 0.5) 100%), url("../img/home/home-cover.jpg");
+        background-size: cover;
+        background-position: right center;
+        background-repeat: no-repeat;
+
+    }
 }
 .cover-social-links{
     font-size: 26px;
@@ -60,6 +83,90 @@
     color: var(--secondary);
     text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.hero .carousel {
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 0;
+    margin: 0;
+    position: relative;
+}
+
+.hero .carousel-item {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+    transition-duration: 0.4s;
+}
+
+.hero .carousel-item::before {
+    content: "";
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    position: absolute;
+    inset: 0;
+}
+
+
+
+@media (min-width: 640px) {
+    .hero .carousel-control-prev {
+        padding-left: 15px;
+    }
+}
+
+.hero .carousel-control-next {
+    justify-content: end;
+}
+
+@media (min-width: 640px) {
+    .hero .carousel-control-next {
+        padding-right: 15px;
+    }
+}
+
+.hero .carousel-control-next-icon,
+.hero .carousel-control-prev-icon {
+    background: none;
+    font-size: 26px;
+    line-height: 0;
+    background: var(--dark);
+    color: var(--secondary) !important;
+    border-radius: 50px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .carousel-control-prev,
+.hero .carousel-control-next {
+    z-index: 3;
+    transition: 0.3s;
+}
+
+.hero .carousel-control-prev:focus,
+.hero .carousel-control-next:focus {
+    opacity: 1;
+}
+
+.hero .carousel-control-prev:hover,
+.hero .carousel-control-next:hover {
+    opacity: 0.9;
+}
+
 /*--------------------------------------------------------------
 # why choose Section
 --------------------------------------------------------------*/
@@ -451,5 +558,14 @@ font-weight: 400 !important;
     background-color: var(--dark);
     color: white;
 
+}
+
+/*======AboutUs page========*/
+#team-img{
+    background-image: url("../img/aboutUs/aboutUs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 

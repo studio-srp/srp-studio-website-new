@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 
 :root {
     --primary: rgb(65,61,117);
-    --secondary: #55F9CE;
+    --secondary: #62FECC;
     --light: #F7F8FC;
     --dark:#001D6D;
 }
@@ -54,6 +54,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .dropdown-item{
     background-color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
 }
 .dropdown-item:hover{
     background-color:var(--secondary);
@@ -144,9 +146,15 @@ h1,h2,h3,h4,h5,h6{
 
 
 /*** Navbar ***/
+
+nav{
+    font-family: 'Euclid Circular B', sans-serif !important;
+
+}
 .fixed-top {
     transition: .5s;
 }
+
 
 .top-bar {
     height: 45px;
@@ -164,9 +172,11 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar .navbar-nav .nav-link {
     /*padding: 25px 15px;*/
-    color: #555555;
+    color: black;
     /*font-weight: 500;*/
     outline: none;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .navbar .navbar-nav .nav-link:hover,
